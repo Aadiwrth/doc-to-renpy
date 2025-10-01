@@ -138,7 +138,7 @@ class Consolidate:
       return TextType.NONE
 
   def is_dialogue(self, text: str) -> bool:
-    """Check if text contains dialogue (has : but not at start for labels)"""
+    """Check if text contains dialogue (has " : " but not at start for labels)"""
     if ":" not in text:
       return False
     
