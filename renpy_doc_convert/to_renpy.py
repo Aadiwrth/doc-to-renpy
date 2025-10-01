@@ -47,7 +47,7 @@ class ConvertToRenpy:
 
   def parse_character_definitions(self) -> Tuple[bool, int]:
     """
-    Parse character definitions from the document.
+    Parse character definitions from the documents.
     Returns (found, end_index) where end_index is the chunk after Characters{}
     """
     if not self.chunks:
